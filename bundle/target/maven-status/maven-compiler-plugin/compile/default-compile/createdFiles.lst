@@ -1,4 +1,7 @@
-com/whitbread/premierinn/impl/filters/LoggingFilter.class
+com/whitbread/premierinn/Validatable.class
 com/whitbread/premierinn/package-info.class
-com/whitbread/premierinn/impl/HelloServiceImpl.class
-com/whitbread/premierinn/HelloService.class
+com/whitbread/premierinn/AbstractValidatableModel.class
+com/whitbread/premierinn/MultiFieldPanelComponentModel.class
+com/whitbread/premierinn/ImageAsset$Builder.class
+com/whitbread/premierinn/ImageAsset$1.class
+com/whitbread/premierinn/ImageAsset.class

@@ -1,0 +1,18 @@
+<html>
+    <head data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
+    	<div data-sly-include="/libs/wcm/core/components/init/init.jsp"></div>
+		<meta data-sly-call="${clientLib.css @ categories='core'}" data-sly-unwrap></meta>
+		<div data-sly-resource="${@path='header-ipar',resourceType='foundation/components/iparsys'}"></div>
+	</head>
+	<body>
+    	<h1>You can add components below</h1>
+		<div data-sly-resource="${ @path='par-one', resourceType='foundation/components/parsys'}"></div>
+		<div data-sly-resource="${ @path='par-two', resourceType='foundation/components/parsys'}"></div>
+	</body>
+	<footer>
+		<div data-sly-resource="${@path='footer-ipar',resourceType='foundation/components/iparsys'}"></div>
+	</footer>
+</html>
+
+
+

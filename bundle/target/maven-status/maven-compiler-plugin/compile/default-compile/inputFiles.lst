@@ -1,4 +1,5 @@
-/Users/hegartyi/premierinn/bundle/src/main/java/com/whitbread/premierinn/impl/filters/LoggingFilter.java
-/Users/hegartyi/premierinn/bundle/src/main/java/com/whitbread/premierinn/impl/HelloServiceImpl.java
-/Users/hegartyi/premierinn/bundle/src/main/java/com/whitbread/premierinn/HelloService.java
+/Users/hegartyi/premierinn/bundle/src/main/java/com/whitbread/premierinn/AbstractValidatableModel.java
+/Users/hegartyi/premierinn/bundle/src/main/java/com/whitbread/premierinn/ImageAsset.java
+/Users/hegartyi/premierinn/bundle/src/main/java/com/whitbread/premierinn/Validatable.java
 /Users/hegartyi/premierinn/bundle/src/main/java/com/whitbread/premierinn/package-info.java
+/Users/hegartyi/premierinn/bundle/src/main/java/com/whitbread/premierinn/MultiFieldPanelComponentModel.java

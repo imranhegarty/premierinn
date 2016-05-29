@@ -3,4 +3,5 @@
     jcr:primaryType="cq:Component"
     jcr:title="Premier Inn Multi Field Component"
     sling:resourceSuperType="foundation/components/parbase"
+    allowedParents="[*/parsys]"
     componentGroup="Premier Inn - Components"/>

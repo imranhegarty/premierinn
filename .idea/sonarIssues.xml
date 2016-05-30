@@ -33,6 +33,56 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/bundle/src/main/java/com/whitbread/premierinn/components/listchildren/ListChildren.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/bundle/src/main/java/com/whitbread/premierinn/components/listchildren/ListChildrenProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/bundle/src/main/java/com/whitbread/premierinn/components/listchildren/ListChildrenProviderImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/bundle/src/main/java/com/whitbread/premierinn/components/listchildren/ListChildrenService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/bundle/src/main/java/com/whitbread/premierinn/components/listchildren/ListChildrenServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/bundle/src/main/java/com/whitbread/premierinn/components/listchildren/ListChildrenServiceInterface.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/bundle/src/main/java/com/whitbread/premierinn/components/listchildren/ListChildrenServiceProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/bundle/src/main/java/com/whitbread/premierinn/components/listchildren/ListChildrenServlet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/bundle/src/main/java/com/whitbread/premierinn/components/listchildren/impl/ListChildrenProviderImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/bundle/src/main/java/com/whitbread/premierinn/components/listchildren/impl/ListChildrenServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/bundle/src/main/java/com/whitbread/premierinn/customMultiFieldComponentModel.java">
           <value>
             <set />
@@ -73,6 +123,46 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/developers/.content.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/developers/clientlibs/.content.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/developers/clientlibs/developers.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/developers/clientlibs/js.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/developers/developers.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/developers/dialog.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/developers2/.content.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/developers2/clientlibs/js.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/imagemultifield/.content.xml">
           <value>
             <set />
@@ -93,7 +183,80 @@
             <set />
           </value>
         </entry>
+<<<<<<< Updated upstream
+=======
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/listchildren/.content.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/listchildren/_cq_editConfig.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/listchildren/dialog.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/listchildren/listchildren.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/multifield/clientlibs/multifield.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/multifield/developers.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/multifield/dialog.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/multifield/multifield.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+>>>>>>> Stashed changes
         <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/multifieldpanelcomponent/multifieldpanelcomponent.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/multifieldpanlelist/clientlibs/.content.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/multifieldpanlelist/clientlibs/jquery.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/multifieldpanlelist/clientlibs/js.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/multifieldpanlelist/clientlibs/multifieldpanlelist.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/multifieldpanlelist/dialog.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/multifieldpanlelist/multifieldpanlelist.jsp">
           <value>
             <set />
           </value>
@@ -148,6 +311,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/premierinnmultifieldcomponent/clientlib/multi-field.js.dir/.content.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/premierinnmultifieldcomponent/dialog.xml">
           <value>
             <set />
@@ -159,6 +327,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/premierinnmultifieldcomponent/premierinnmultifieldcomponent.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/premierinnmultifieldcomponent2/clientlib/js.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/premierinnmultifieldcomponent2/clientlib/multi-field.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/premierinnmultifieldcomponent2/dialog.xml">
           <value>
             <set />
           </value>
@@ -228,12 +411,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/premierinn/clientlibs/core/js.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$USER_HOME$/telegraph-component/cq/core-app/core-app-commons/src/main/cq/jcr_root/apps/telegraph/core/commons/renderers/articleRenderer/bodyContent.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/telegraph-component/cq/core-app/core-app-commons/src/main/cq/jcr_root/apps/telegraph/core/commons/renderers/bareRenderer/tab_headingdata.xml">
           <value>
             <set />
           </value>

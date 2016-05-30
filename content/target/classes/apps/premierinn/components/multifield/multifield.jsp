@@ -1,6 +1,6 @@
 
 <jsp:directive.include file="/libs/foundation/global.jsp" />
-<cq:includeClientLib categories="multifield" />
+<cq:includeClientLib categories="core" />
 
 <c:if test="${empty fn:trim(properties.multifieldlist)}">
     <div id="multilist" style="border: 1px solid grey; background-color: #FFF0F0; width: 600px; height: auto;padding:7px">

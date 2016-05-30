@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="500"
+    modal="{Boolean}true"
+    title="Project Details"
+    width="900"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <multifieldlist
+                jcr:primaryType="cq:Widget"
+                title="Multifield List"
+                xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <multifieldlistitems
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Click the '+' to add a new element"
+                        fieldLabel="Multifield"
+                        name="./multifieldlist"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            xtype="multifieldpanellist"/>
+                    </multifieldlistitems>
+                </items>
+            </multifieldlist>
+        </items>
+    </items>
+</jcr:root>

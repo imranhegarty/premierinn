@@ -1,4 +1,1 @@
-###base###
-
-#base=css
 core.css

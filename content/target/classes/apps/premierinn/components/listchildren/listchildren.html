@@ -1,4 +1,6 @@
-Our service value:-
-<div data-sly-use.info="com.whitbread.premierinn.components.listchildren.ListChildrenServlet">
-    ${info.details}
+<div data-sly-use.children="com.whitbread.premierinn.components.listchildren.ListChildren">
+    <b>Here are the child pages of ${properties.path}:</b>
+    <ul data-sly-list="${children.childPages}">
+        <li>${item.title}</li>
+    </ul>
 </div>

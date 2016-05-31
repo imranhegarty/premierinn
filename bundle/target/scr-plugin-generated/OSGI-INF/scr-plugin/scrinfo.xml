@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
-    <scr:component enabled="true" name="com.whitbread.premierinn.components.listchildren.ListChildrenService">
-        <implementation class="com.whitbread.premierinn.components.listchildren.ListChildrenService"/>
-        <service servicefactory="false">
-            <provide interface="com.whitbread.premierinn.components.listchildren.ListChildrenService"/>
-        </service>
-        <property name="service.pid" value="com.whitbread.premierinn.components.listchildren.ListChildrenService" private="false"/>
-    </scr:component>
-</components>

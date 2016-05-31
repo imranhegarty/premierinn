@@ -48,6 +48,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/bundle/src/main/java/com/whitbread/premierinn/components/listchildren/ListChildren.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/bundle/src/main/java/com/whitbread/premierinn/components/listchildren/ListChildrenService.java">
           <value>
             <set />
@@ -129,6 +134,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/listchildren/listchildren.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/multifield/clientlib/.content.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/multifield/multifield.jsp">
           <value>
             <set />
           </value>

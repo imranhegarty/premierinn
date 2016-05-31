@@ -59,7 +59,6 @@ public class ListChildrenTest {
 		doCallRealMethod().when(listChildren).activate();
 	}
 
-	// Write tests
 	@Test
 	public void testChildPagesWithSetPath() {
 		Iterator<Page> testChildren = getChildList();

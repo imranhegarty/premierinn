@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$PROJECT_DIR$/.idea/sonarIssues.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/bundle/pom.xml">
           <value>
             <set />
@@ -73,6 +78,46 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/bundle/src/test/java/com/whitbread/premierinn/components/listchildren/ListChildrenTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/bundle/target/classes/META-INF/MANIFEST.MF">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/bundle/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/bundle/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/bundle/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/bundle/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/bundle/target/surefire-reports/com.whitbread.premierinn.components.listchildren.ListChildrenTest.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/bundle/target/test-classes/com/whitbread/premierinn/components/listchildren/ListChildrenTest.class">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/content/pom.xml">
           <value>
             <set />
@@ -139,6 +184,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/multifield/clientlib/.content.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/multifield/clientlib/multifield.js">
           <value>
             <set />
           </value>

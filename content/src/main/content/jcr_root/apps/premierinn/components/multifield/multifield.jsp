@@ -1,4 +1,3 @@
-
 <jsp:directive.include file="/libs/foundation/global.jsp" />
 <cq:includeClientLib categories="core,multifield" />
 

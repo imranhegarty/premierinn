@@ -143,6 +143,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/multifield/clientlib/multifield.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/premierinn/components/multifield/multifield.jsp">
           <value>
             <set />

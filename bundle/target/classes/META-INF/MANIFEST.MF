@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1464671832786
+Bnd-LastModified: 1464674960528
 Build-Jdk: 1.7.0_51
 Built-By: hegartyi
 Bundle-Description: Maven Multimodule project for Premier Inn.

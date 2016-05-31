@@ -94,7 +94,7 @@ try {
                 rootPath:"/content/dam",
                 regex :/\.(png|jpg|jpeg|gif|tiff|bmp|pnm|pgm|pbm|ppm|psd|eps|dng)$/,
                 regexText : "Please choose an image file",
-                editable : false,
+                editable : true,
                 allowBlank: true,
                 fieldDescription: "Select an image from the pathfinder",
                 width: 225,

@@ -1,0 +1,17 @@
+.svn
+.idea
+*.iml
+.project
+.settings
+.classpath
+.DS_Store
+**/target
+**/bin
+.vlt
+access.log
+error.log
+*.orig
+**/log.txt
+favicon.ico
+node_modules
+whitbread-aem.pem

@@ -1,18 +1,188 @@
-<html>
-    <head data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
-    	<div data-sly-include="/libs/wcm/core/components/init/init.jsp"></div>
-		<meta data-sly-call="${clientLib.css @ categories='core'}" data-sly-unwrap></meta>
-		<div data-sly-resource="${@path='header-ipar',resourceType='foundation/components/iparsys'}"></div>
-	</head>
-	<body>
-    	<h1>You can add components below</h1>
-		<div data-sly-resource="${ @path='par-one', resourceType='foundation/components/parsys'}"></div>
-		<div data-sly-resource="${ @path='par-two', resourceType='foundation/components/parsys'}"></div>
-	</body>
-	<footer>
-		<div data-sly-resource="${@path='footer-ipar',resourceType='foundation/components/iparsys'}"></div>
-	</footer>
+<!DOCTYPE html>
+<head data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
+    <link rel="icon" type="image/x-icon" href="http://www.premierinn.com/content/dam/pi/websites/desktop/icons/favicons/favicon.ico">
+    <div data-sly-include="/libs/wcm/core/components/init/init.jsp"></div>
+    <meta data-sly-call="${clientLib.all @ categories='core'}" data-sly-unwrap/>
+</head>
+
+<body class="pi-adjusted-content"
+      data-ng-class="{'has-overlay':popupOverlays.length>0, 'pi-fixed-height-layout':pageLayout.isIpad}">
+<div data-pi-error-overlay></div>
+<div itemscope itemtype="http://schema.org/WebPage" class="pagewrap"/>
+    <header class="pi-header ng-scope" role="banner" data-ng-class="{'is-fixed':pageLayout.isFixed}" data-ng-controller="UserNavCtrl">
+        <div class="pi-header__main">
+            <div class="inner container">
+                <div class="pi-header__logo">
+                    <label>
+                        <img data-ng-click="goToHome()" src="http://www.premierinn.com/content/dam/pi/websites/desktop/header/xpremier_inn_logo.png.pagespeed.ic.kckGmBYw1y.png" alt="Premier Inn">
+                    </label>
+                </div>
+                <nav class="pi-primary-nav" role="navigation">
+                    <ul pi-active-link="">
+                        <li><a href="http://www.premierinn.com/gb/en/book-a-hotel.html?intcmp=nav" data-pi-track-click="CONTENT_MODULE_TABS" data-extra="Book a hotel">Book a hotel</a></li>
+                        <li><a href="http://www.premierinn.com/gb/en/business.html?intcmp=nav" data-pi-track-click="CONTENT_MODULE_TABS" data-extra="Business">Business</a></li>
+                        <li><a href="http://www.premierinn.com/gb/en/why.html?intcmp=nav" data-pi-track-click="CONTENT_MODULE_TABS" data-extra="Why we're Premier">Why we're Premier</a></li>
+                        <li><a href="http://www.premierinn.com/gb/en/hotels.html?intcmp=nav" data-pi-track-click="CONTENT_MODULE_TABS" data-extra="Our hotels">Our hotels</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div data-sly-resource="${@path='header-ipar',resourceType='foundation/components/iparsys'}"/>
+        </div>
+    </header>
+    <main role="main">
+        <div data-sly-resource="${ @path='par-one', resourceType='foundation/components/parsys'}" data-ng-if="once"
+             data-pi-view/>
+        <section class="pi-inspiration">
+            <div class="container">
+                <header>
+                    <span class="pi-inspiration__heading">Where would you like to go?</span>
+                    <p class="pi-inspiration__subheading beta">Wherever you’re heading, you’ll find a Premier Inn nearby</p>
+                </header>
+                <div class="grid">
+                    <div class="grid__item one-third">
+                        <div class="pi-inspiration__item pi-inspiration__item--map-pin-outline">
+                            <div class="pi-inspiration__image">
+                                <img src="http://www.premierinn.com/content/dam/pi/websites/desktop/homepage/inspiration/xEdinburgh.jpg.pagespeed.ic.zqo9KRSs8Z.webp" alt="">
+                                <a href="http://www.premierinn.com/gb/en/hotels/scotland/lothian/edinburgh.html?intcmp=hp_insp_1">
+                                    <span class="icon icon--map-pin-outline"></span>
+                                </a>
+                            </div>
+                            <a href="http://www.premierinn.com/gb/en/hotels/scotland/lothian/edinburgh.html?intcmp=hp_insp_1"><h3 class="gamma">Edinburgh</h3></a>
+                            <p>Edinburgh has it all – world-class art and culture, award-winning restaurants and a thriving nightlife scene. Explore our favourite things to do.</p>
+                        </div>
+                    </div><!--
+        --><div class="grid__item one-third">
+                    <div class="pi-inspiration__item pi-inspiration__item--no-icon">
+                        <div class="pi-inspiration__image">
+                            <img src="http://www.premierinn.com/content/dam/pi/websites/desktop/homepage/inspiration/new/xNORDER300.jpg.pagespeed.ic.EEBdv08s8y.webp" alt="NEW">
+                            <a href="http://www.premierinn.com/gb/en/hotels/england/northamptonshire/northampton/northampton-town-centre.html?intcmp=hp_new_1">
+                                <span class="icon"><span>NEW</span></span>
+                            </a>
+                        </div>
+                        <a href="http://www.premierinn.com/gb/en/hotels/england/northamptonshire/northampton/northampton-town-centre.html?intcmp=hp_new_1"><h3 class="gamma">Northampton Town Centre</h3></a>
+                        <p>Smack bang in the town centre, perfect for Northampton’s top attractions</p>
+                    </div>
+                    <div class="pi-inspiration__item pi-inspiration__item--no-icon">
+                        <div class="pi-inspiration__image">
+                            <img src="http://www.premierinn.com/content/dam/pi/websites/desktop/homepage/inspiration/new/xFRAMTI.png.pagespeed.ic.P76zsysLHR.webp" alt="">
+                            <a href="http://www.premierinn.com/gb/en/hotels/germany/hesse/frankfurt/frankfurt-messe.html?intcmp=hp_new_2">
+                                <span class="icon"><span>NEW</span></span>
+                            </a>
+                        </div>
+                        <a href="http://www.premierinn.com/gb/en/hotels/germany/hesse/frankfurt/frankfurt-messe.html?intcmp=hp_new_2"><h3 class="gamma">Frankfurt Messe</h3></a>
+                        <p>Our very first hotel in Germany - handily located right next to the Messe exhibition ground, Festhalle concert hall and Kap Europa with great transport links into the city.</p>
+                    </div>
+                </div><!--
+        --><div class="grid__item one-third">
+                    <div class="pi-inspiration__item pi-inspiration__item--map-pin-outline">
+                        <div class="pi-inspiration__image">
+                            <img src="http://www.premierinn.com/content/dam/pi/websites/desktop/homepage/inspiration/locations/xLondon.jpg.pagespeed.ic.7fxI-dQSq3.webp" alt="">
+                            <a href="http://www.premierinn.com/gb/en/hotels/england/greater-london/london.html?intcmp=hp_insp_2">
+                                <span class="icon icon--map-pin-outline"></span>
+                            </a>
+                        </div>
+                        <a href="http://www.premierinn.com/gb/en/hotels/england/greater-london/london.html?intcmp=hp_insp_2"><h3 class="gamma">London</h3></a>
+                        <p>You can never tire of London – one of the most exciting, diverse and intriguing cities on earth. Check out our ‘mustn't miss’ things to do in the capital.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <div data-sly-resource="${ @path='par-two', resourceType='foundation/components/parsys'}" data-ng-show="!once"
+             data-ng-view></div>
+    </main>
+<footer class="hide-until-ready show-when-ready" role="contentinfo" data-ng-hide="pageLayout.hideFooter"
+        data-ng-class="{'show-when-ready':pageLayout.isReady}">
+    <div class="footer-bottom bottom">
+        <div data-sly-resource="${@path='footer-ipar',resourceType='foundation/components/iparsys'}"/>
+        <div class="container">
+            <div class="grid soft--top">
+                <div class="grid__item one-half soft--right"><h3
+                        class="footer-navigation__header footer-navigation__header--white push-half--bottom"><span
+                        class="icon icon--"></span>Wake up wonderful </h3>
+
+                    <p class="footer-navigation__description footer-navigation__description--white">Here at Premier Inn
+                        you can rely on us for a great night’s sleep - a sleep so good that we guarantee it. You’ll love
+                        the friendly service and great value you can expect at every one of our 700+ hotels across the
+                        UK and Ireland – and now in Germany too.</p></div>
+                <!--            -->
+                <div class="grid__item one-quarter chevron-list--white">
+                    <ul class="pi-list pi-list--icon">
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/terms/booking-terms-and-conditions.html">Terms &amp; conditions</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/terms/privacy-policy.html">Privacy policy</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/terms/disabled-access.html">Disabled access</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/terms/terms-of-use.html">Terms of use</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/terms/how-we-use-cookies.html">How we use cookies</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="https://www.whitbread.co.uk/about-us/index.html" target="_blank">Corporate
+                            information</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/business/international-development.html">International development</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/premier-inn-affiliate-programme.html">Affiliates</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-duallinks bottom">
+        <div class="container">
+            <div class="grid soft--top">
+                <div class="grid__item one-half chevron-list--white"><h3
+                        class="footer-navigation__header footer-navigation__header--white push-half--bottom"><span
+                        class="icon icon--"></span>Top Premier Inn destinations </h3>
+
+                    <p class="footer-navigation__description footer-navigation__description--white"></p>
+                    <ul class="pi-list pi-list--icon">
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/hotels/england/greater-london/london.html">London</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/hotels/scotland/lothian/edinburgh.html">Edinburgh</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/hotels/england/north-yorkshire/york.html">York</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/hotels/england/west-yorkshire/leeds.html">Leeds</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/hotels/england/nottinghamshire/nottingham.html">Nottingham</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/hotels/northern-ireland/antrim/belfast.html">Belfast</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/hotels/england/tyne-and-wear/newcastle.html">Newcastle</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/hotels/scotland/strathclyde/glasgow.html">Glasgow</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/hotels/germany/hesse/frankfurt.html">Frankfurt</a></li>
+                    </ul>
+                    <ul class="pi-list pi-list--icon">
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/hotels/england/greater-manchester/manchester.html">Manchester</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/hotels/england/west-midlands/birmingham.html">Birmingham</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/hotels/england/bristol.html">Bristol</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/hotels/england/merseyside/liverpool.html">Liverpool</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/hotels/england/cambridgeshire/cambridge.html">Cambridge</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/hotels/england/norfolk/norwich.html">Norwich</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/hotels/england/berkshire/windsor.html">Windsor</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/hotels/republic-of-ireland/dublin.html">Dublin</a></li>
+                        <li data-ng-click="togglestate.footer=false"><span class="icon icon--arrow-right"></span><a
+                                href="http://www.premierinn.com/gb/en/hotels/england/greater-london/wembley-stadium.html">Wembley</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footerbase"></div>
+</footer>
+</body>
 </html>
-
-
-

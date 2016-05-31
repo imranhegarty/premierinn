@@ -1,5 +1,5 @@
+<meta data-sly-call="${clientLib.all @ categories='core'}" data-sly-unwrap/>
 <div data-sly-use.children="com.whitbread.premierinn.components.listchildren.ListChildren">
-    <b>Here are the child pages of ${properties.path}:</b>
     <ul data-sly-list="${children.childPages}">
         <li>${item.title}</li>
     </ul>
